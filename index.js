@@ -207,7 +207,7 @@ class App extends Component {
     )
   }
   report = async() =>{
-    const url=`https://api.openweathermap.org/data/2.5/weather?q=${this.state.cityName}&APPID=222e7a66e12940066adc0c9db925f076`;
+    const url=`https://api.openweathermap.org/data/2.5/weather?q=${this.state.cityName}&APPID=a6f343109ef53b76d5cc832083ddf99f`;
     const response = await fetch(url);
     const myJson = await response.json();
     console.log(myJson);
